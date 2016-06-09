@@ -17,4 +17,5 @@ public class Cuadrilatero {
         int ladoY = Math.abs(this.esquinaInferiorIzquierda.y - this.esquinaSuperiorDerecha.y);
         return ladoX * 2 + ladoY * 2;
     }
+
 }
